@@ -3,10 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cherry+Cream+Soda&display=swap" rel="stylesheet">
+    <!-- 
     <link rel="stylesheet" href="style.css">
+     -->
     <title>Projeto Cordel</title>
+    <style>
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  header{
+      background-color: black;
+      color: white;
+      height: 200px;
+      text-align:center;
+  }
+  
+  #titulo{
+      padding-top: 20px;
+      font-size: 5em;
+      font-family: "Alfa Slab One", serif;
+  }
+  
+  #link{
+      padding-top: 20px;
+  }
+  
+  a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+  }
+  
+  .bloco{
+      background-color:white;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  p{
+      font-family: "Cherry Cream Soda", system-ui;
+      font-size: 2em;
+      padding: 40px  40px;
+  }
+  
+  .cordel-imagem{
+      
+      background-color: rgba(0, 0, 0, 0.8);
+      width:500px;
+      color:white;
+  }
+  
+  .bloco2{
+      background-image:url(imagens/background001.jpg);
+  }
+  
+  .image{
+      
+  }
+  
+  
+    </style>
 </head>
 <body>
-    
+  <header>
+      <div>
+          <h1 id='titulo'>Projeto Cordel</h1>
+          <p id='link'>por <a  href='https://www.recantodasletras.com.br/poesias/3186743' target='blank'>Milton Duarte</a></p>
+      </div>
+  </header>
+  
+  <div class='bloco'> 
+      <p   class='cordel'>
+            Estou ficando cansado<br>
+            Da tal tecnologia<br>
+            Só se fala por e-mail<br>
+            Mensagem curta e fria<br>
+            Twitter e Facebook<br>
+            Antes que eu caduque<br>
+            Vou dizer tudo em poesia
+
+
+      </p>
+  </div>
+  
+      <div  class='bloco2'>
+          <p class='cordel-imagem'>
+            Não é mais como era antes<br>
+            É tudo abreviado<br>
+            "Você" só tem duas letras<br>
+            O "O" e o "E" foi riscado<br>
+            Para declarar o amor<br>
+            Basta botar uma flor<br>
+            E um coração desenhado.<br>
+          </p>
+      </div>
 </body>
 </html>
