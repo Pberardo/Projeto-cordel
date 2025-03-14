@@ -39,6 +39,10 @@ a:hover{
   text-decoration: underline;
 }
 
+.bloco2, .bloco4 {
+  position: relative; /* Garante que o z-index funcione */
+}
+
 .blocao{
   background: black url(imagens/background001.jpg) center center no-repeat fixed;
   background-size: cover;
@@ -65,6 +69,7 @@ p{
 
 .bloco2{
   padding: 50px 30px 60px 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .blocao2{
@@ -80,6 +85,7 @@ p{
 
 .bloco4{
   padding: 50px 30px 60px 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .cordel4{
   background-color: rgba(0, 0, 0, 0.427);
@@ -101,8 +107,9 @@ p{
 
 footer > p{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   text-align: center;
+  padding: 2px 2px;
 }
 
 
