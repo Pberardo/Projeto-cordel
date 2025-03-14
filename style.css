@@ -56,19 +56,23 @@ a:hover{
 
 p{
   font-family: "Cherry Cream Soda", system-ui;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 2;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 .cordel2{
   background-color: rgba(0, 0, 0, 0.427);
-  width:60%;
+  width:50%;
   color:white;
   padding: 5px;
 }
 
 .bloco2{
-  padding: 50px 30px 60px 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 2vh;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -84,12 +88,14 @@ p{
 }
 
 .bloco4{
-  padding: 50px 30px 60px 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 2vh;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .cordel4{
   background-color: rgba(0, 0, 0, 0.427);
-  width:60%;
+  width:50%;
   color:white;
   padding: 5px;
 }
